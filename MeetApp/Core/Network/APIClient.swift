@@ -137,8 +137,8 @@ enum APIEndpoint {
 class APIClient {
     static let shared = APIClient()
     
-    // 开发环境使用 localhost:8080，生产环境替换为实际域名
-    private let baseURL = "http://localhost:8080"
+    // 后端服务地址（腾讯云服务器，Nginx代理到api-gateway:8080）
+    private let baseURL = "http://124.223.114.103"
     private let isMockMode = true // MVP阶段使用Mock数据
     
     private var accessToken: String?
