@@ -23,6 +23,7 @@ struct AppTheme {
     static let whiteOpacity04 = Color.white.opacity(0.4)
     static let whiteOpacity03 = Color.white.opacity(0.3)
     static let whiteOpacity02 = Color.white.opacity(0.2)
+    static let whiteOpacity012 = Color.white.opacity(0.12)
     static let whiteOpacity01 = Color.white.opacity(0.1)
     static let whiteOpacity008 = Color.white.opacity(0.08)
     static let whiteOpacity005 = Color.white.opacity(0.05)
